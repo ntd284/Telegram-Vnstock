@@ -255,19 +255,10 @@ class telegram():
                 except:
                     onhand_D = 0
                     aver_price_D = 0
-                try:
-                    stock_onhand_Y = trading_setting.stockPosition(token.hostY(),token.accountY(),ticker)
-                    onhand_Y = stock_onhand_Y['onHand']
-                    aver_price_Y = stock_onhand_Y['avgPrice']
 
-
-                except:
-                    onhand_Y = 0
-                    aver_price_Y = 0
 
                 content = f"<b>CP: {ticker}</b>. {json_stock['Date']}\
                         \n<b>Số lượng CP onHand Duong:</b> {onhand_D} ({aver_price_D})\
-                        \n<b>Số lượng CP onHand YAN:</b> {onhand_Y} ({aver_price_Y})\
                         \n\n💰 <b>Giá đóng cửa:</b> {yes_json_stock['Close']} ({yes_json_stock['Date']})\
                         \n💰 <b>Giá CP hiện tại/closed:</b> {json_stock['Close']}\
                         \n💰 <b>Giá BUY</b> hiện tại: {json_best_price['best_ask_buy']}\

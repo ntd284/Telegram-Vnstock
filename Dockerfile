@@ -24,7 +24,6 @@ COPY src/main.py /usr/app/src/telestockbot/src
 COPY src/streaming_stock.py /usr/app/src/telestockbot/src
 
 
-COPY src/plugin/open_ai.py /usr/app/src/telestockbot/src/plugin
 COPY src/plugin/ssi_data.py /usr/app/src/telestockbot/src/plugin
 COPY src/plugin/ssi_trading.py /usr/app/src/telestockbot/src/plugin
 
@@ -32,7 +31,6 @@ COPY src/plugin/key/config_data.py /usr/app/src/telestockbot/src/plugin/key
 COPY src/plugin/key/config_trading.py /usr/app/src/telestockbot/src/plugin/key
 COPY src/plugin/key/key.py /usr/app/src/telestockbot/src/plugin/key
 COPY src/plugin/key/tradingD.py /usr/app/src/telestockbot/src/plugin/key
-COPY src/plugin/key/tradingY.py /usr/app/src/telestockbot/src/plugin/key
 
 COPY requirements.txt /usr/app/src/telestockbot
 
