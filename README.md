@@ -68,3 +68,11 @@ Set a price alert for a chosen stock by following this command with the stock's 
 <p align="center">
   <img src="doc/image/levelal.png" alt="alcmd" width='350'>
 </p>
+
+ - **/lal [stock_symbol]**: [main.py](src/data.py) and [ssi_data.py](src/plugin/ssi_data.py)
+
+ View the list of stocks you're monitoring by sending this command. It shows all the stocks with active alerts, helping you keep track of your investments.
+
+ <p align="center">
+  <img src="doc/image/lal.png" alt="lal" width='350'>
+</p>
