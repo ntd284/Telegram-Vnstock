@@ -55,7 +55,8 @@ Get detailed information on a specific stock by using this command followed by t
   <img src="doc/image/ifcmd.png" alt="ifcmd" width='500'>
 </p>
 
-- **/al [stock_symbol]**: [main.py](src/data.py) and [ssi_data.py](src/plugin/ssi_data.py)
+ - **/al [stock_symbol]**: [main.py](src/data.py) and [ssi_data.py](src/plugin/ssi_data.py)
+
 Set a price alert for a chosen stock by following this command with the stock's symbol (e.g., `/al VNM`). Information also shows my the number off on-hand stock (14 stocks FPT).
 
 <p align="center">
