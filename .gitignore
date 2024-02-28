@@ -1,0 +1,5 @@
+src/plugin/key/config_data.py
+src/plugin/key/config_trading.py
+src/plugin/key/key.py
+
+file/list_acc_trading.txt
