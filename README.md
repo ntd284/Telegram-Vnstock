@@ -37,6 +37,7 @@ git clone https://github.com/ntd284/Telegram-Vnstock.git
 <p align="center">
   <img src="doc/image/key.png" alt="ifcmd" width='350'>
 </p>
+
 ![ssi-permission](doc/image/gitcre.png)
 
 - Install Docker, Docker compose:
