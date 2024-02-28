@@ -73,10 +73,21 @@ Set a price alert for a chosen stock by following this command with the stock's 
 
 View the list of stocks you're monitoring by sending this command. It shows all the stocks with active alerts, helping you keep track of your investments.
 
-In this image, we can see two other commands:
-1. `/LVDEL:` Remove sets of price level (HIGH/LOW).
-2. `/CPDEL:` Remove stocks out of list.
-
- <p align="center">
+<p align="center">
   <img src="doc/image/lal.png" alt="lal" width='350'>
 </p>
+
+In this image, we can see two other commands:
+1. `/LVDEL:` Remove sets of price level (HIGH/LOW).
+
+<p align="center">
+  <img src="doc/image/lvdel.png" alt="lal" width='350'>
+</p>
+
+2. `/CPDEL:` Remove stocks out of list.
+
+<p align="center">
+  <img src="doc/image/cpdel.png" alt="lal" width='350'>
+</p>
+
+
