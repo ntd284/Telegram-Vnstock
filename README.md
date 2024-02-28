@@ -99,7 +99,7 @@ In this image, we can see two other commands:
 
 4. Data streaming: [streaming_stock.py](src/streaming_stock.py) and [cronfile.py](src/cronfile)
 
-`cronfile` is autorun `streaming file` at 8am and 1pm from Monday to Friday.
+`cronfile` is auto-open and auto-close `streaming_stock file` at 8am-11am and 1pm-3pm from Monday to Friday.
 
 <p align="center">
   <img src="doc/image/checkstream.png" alt="lal" width='350'>
