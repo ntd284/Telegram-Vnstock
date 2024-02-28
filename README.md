@@ -12,7 +12,7 @@ Stay informed on-the-go with our Real-Time Stock Alert Messaging System, an solu
 
 Before setup and running, please ensure you have the following prerequisites in place:
 
-1. <b>Registration for SSI FastAPI Access:</b> This will grant you the necessary permissions to access batch and real-time stock data, as well as execute trades
+1. <b>Registration for SSI FastAPI Access:</b> This will grant you the necessary permissions to access batch and real-time stock data, as well as execute trades.
 
 ![ssi-permission](doc/image/ssi-api.png)
 
@@ -51,6 +51,8 @@ docker compose up
 ### Run Real-time VN Stock Alert Messaging and Trading System 
 
 After setting up your environment with Docker and registering for necessary API access, you can start using the Real-time VN Stock Alert Messaging and Trading System. Here are the Telegram bot commands that will help you navigate the stock market:
+
+## Monitoring Data Mode Commands
 
 1. `/if [stock_symbol]:` [main.py](src/main.py) and [ssi_data.py](src/plugin/ssi_data.py)
 
@@ -95,6 +97,18 @@ In this image, we can see two other commands:
   <img src="doc/image/cpdel.png" alt="lal" width='350'>
 </p>
 
-4. 
+## Trading Mode Commands
+
+Our Real-Time Stock Alert Messaging System provides a secure and interactive trading experience directly through the Telegram bot. Here's how to utilize the trading commands:
+
+### Session Authentication
+
+4. `/getotp:` Send this command to request an OTP (One-Time Password), which is crucial for securing your trading session. The OTP ensures that all trading operations are carried out by verified users.
+
+<p align="center">
+  <img src="doc/image/getotp.png" alt="lal" width='350'>
+</p>
+
+5. `/tr [stock_symbol]: `
 
 
