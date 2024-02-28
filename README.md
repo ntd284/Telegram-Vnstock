@@ -137,5 +137,12 @@ Once authenticated, use this command followed by the stock's symbol to perform t
   <img src="doc/image/trans2.png" alt="lal" width='350'>
 </p>
 
+## Reference:
 
+[1] [How To Install and Use Docker on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04).
 
+[2] [Virtual machine instances guide](https://cloud.google.com/compute/docs/instances).
+
+[3] [pyTelegramBotAPI](https://pypi.org/project/pyTelegramBotAPI/)
+
+[4] [How to Build a Real-time Stock Alert Messaging System in Python](https://medium.com/the-handbook-of-coding-in-finance/how-to-build-a-real-time-stock-alert-messaging-system-in-python-15fc1d8bdcaf)
