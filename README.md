@@ -97,6 +97,14 @@ In this image, we can see two other commands:
   <img src="doc/image/cpdel.png" alt="lal" width='350'>
 </p>
 
+4. Data streaming: [streaming_stock.py](src/streaming_stock.py) and [cronfile.py](src/cronfile)
+
+`cronfile` is autorun `streaming file` at 8am and 1pm from Monday to Friday.
+
+<p align="center">
+  <img src="doc/image/checkstream.png" alt="lal" width='350'>
+</p>
+
 ### Trading Mode Commands
 
 Our Real-Time Stock Alert Messaging System provides a secure and interactive trading experience directly through the Telegram bot. Here's how to utilize the trading commands:
@@ -116,7 +124,7 @@ Upon receiving your OTP, you'll input it back into the system to verify your ide
 
 5. `/tr [stock_symbol]:` [ssi_trading.py](src/plugin/ssi_trading.py)
 
-Once authenticated, use this command followed by the stock's symbol to perform trading actions, such as buying or selling shares. For example, `/tr shb` will initiate a trading operation for the stock symbol 'SSI'.
+Once authenticated, use this command followed by the stock's symbol to perform trading actions, such as buying or selling shares. For example, `/tr shb` will initiate a trading operation for the stock symbol 'SHB'.
 
 <p align="center">
   <img src="doc/image/trans.png" alt="lal" width='350'>
@@ -128,4 +136,6 @@ Once authenticated, use this command followed by the stock's symbol to perform t
 <p align="center">
   <img src="doc/image/trans2.png" alt="lal" width='350'>
 </p>
+
+
 
