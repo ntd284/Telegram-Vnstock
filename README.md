@@ -100,7 +100,7 @@ In this image, we can see two other commands:
   <img src="doc/image/cpdel.png" alt="lal" width='350'>
 </p>
 
-- Data streaming: [streaming_stock.py](src/streaming_stock.py) and [cronfile.py](src/cronfile)
+- Data streaming: [streaming_stock.py](src/streaming_stock.py) and [cronfile](src/cronfile)
 
 `cronfile` is auto-open and auto-close `streaming_stock file` at 8am-11am and 1pm-3pm from Monday to Friday.
 
