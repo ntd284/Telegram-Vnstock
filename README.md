@@ -30,7 +30,7 @@ git clone https://github.com/ntd284/Telegram-Vnstock.git
 - Add info into `key.py`, `config_data.py`, and `config_trading.py`:
 
 ![ssi-permission](doc/image/key.png)
-![ssi-permission](doc/image/gitcre.jpg)
+![ssi-permission](doc/image/gitcre.png)
 
 - Install Docker, Docker compose:
 ```
