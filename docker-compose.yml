@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+
+  main_app:
+    build: .
+    container_name: main
+    volumes: 
+      - /usr/app/src/telestockbot/:/app
+    # command: /bin/sh -c "/usr/bin/crontab /etc/cron.d/crontab && ./run.sh"
+    ports:
+      - "8000:8000"
+      - "8001:8001"
+
+

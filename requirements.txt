@@ -1,0 +1,17 @@
+telebot
+kaleido
+datetime
+bs4
+vnstock
+plotly
+pandas
+ssi-fctrading
+ssi_fc_data
+# fastapi==0.95.2
+fastapi>=0.68.0,<0.69.0
+pydantic>=1.8.0,<2.0.0
+uvicorn>=0.15.0,<0.16.0
+dataframe_image
+matplotlib
+nano
+# uvicorn[standard]==0.22.0

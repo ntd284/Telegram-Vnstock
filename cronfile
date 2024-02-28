@@ -1,0 +1,2 @@
+* 9 * * * python3 /usr/app/src/telestockbot/src/streaming_stock.py
+* 13 * * * python3 /usr/app/src/telestockbot/src/streaming_stock.py
