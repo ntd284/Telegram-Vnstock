@@ -1,4 +1,4 @@
-# Build a Real-time VN Stock Alert Messaging System and Trading
+# Build a Real-time VN Stock Alert Messaging and Trading System
 <p align="center">
   <img src="doc/image/wallpaper.png" alt="Wallpaper">
 </p>
@@ -27,7 +27,7 @@ These prerequisites are essential for setting up and running the Real-time VN St
 ```
 git clone https://github.com/ntd284/Telegram-Vnstock.git
 ```
-- Add info into `key.py`, `config_data.py`, and `config_trading.py`:
+- Add secret code into `key.py`, `config_data.py`, and `config_trading.py`:
 
 ![ssi-permission](doc/image/key.png)
 ![ssi-permission](doc/image/gitcre.png)
@@ -42,6 +42,15 @@ docker compose version
 ```
 docker compose up
 ```
+
+### Run Real-time VN Stock Alert Messaging and Trading System 
+
+After setting up your environment with Docker and registering for necessary API access, you can start using the Real-time VN Stock Alert Messaging and Trading System. Here are the Telegram bot commands that will help you navigate the stock market:
+
+-**/if [stock_symbol]:** Get detailed information on a specific stock by using this command followed by the stock's symbol (e.g., `/if VNM`). You'll receive the latest stock data directly in your Telegram chat.
+
+![/if command](doc/image/ifcmd.png)
+
 
 
 
