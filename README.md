@@ -13,7 +13,9 @@ Before setup and running, please ensure you have the following prerequisites in 
 1. <b>Registration for SSI FastAPI Access:</b> This will grant you the necessary permissions to access batch and real-time stock data, as well as execute trades
 ![ssi-permission](doc/image/ssi-api.png)
 2. <b>Setting up Telegram Bot:</b> This will receive instant stock alerts and interact with api to get data.
-![telegram-bot](doc/image/telegrambot-create.png)
+<p align="center">
+  <img src="doc/image/telegrambot-create.png" alt="Wallpaper">
+</p>
 3. <b>Docker(version 24.0.2) and Docker compose(version 2.19.1):</b> Make sure you have Docker and Docker compose correctly installed.
 
 
