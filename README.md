@@ -1,7 +1,9 @@
 # Build a Real-time VN Stock Alert Messaging and Trading System
+
 <p align="center">
   <img src="doc/image/wallpaper.png" alt="Wallpaper">
 </p>
+
 Stay informed on-the-go with our Real-Time Stock Alert Messaging System, an solution designed to bring you instant market updates without depending on constant screen monitoring. Our sophisticated system not only leverages Python for immediate notifications but also integrates seamlessly with the Telegram bot app to offer a direct, interactive trading experience.
 
 ## Getting Started
@@ -11,8 +13,11 @@ Stay informed on-the-go with our Real-Time Stock Alert Messaging System, an solu
 Before setup and running, please ensure you have the following prerequisites in place:
 
 1. <b>Registration for SSI FastAPI Access:</b> This will grant you the necessary permissions to access batch and real-time stock data, as well as execute trades
+
 ![ssi-permission](doc/image/ssi-api.png)
+
 2. <b>Setting up Telegram Bot:</b> This will receive instant stock alerts and interact with api to get data.
+
 <p align="center">
   <img src="doc/image/telegrambot-create.png" alt="Wallpaper">
 </p>
@@ -69,7 +74,7 @@ Set a price alert for a chosen stock by following this command with the stock's 
   <img src="doc/image/levelal.png" alt="alcmd" width='350'>
 </p>
 
-3, `/lal [stock_symbol]:` [main.py](src/data.py) and [ssi_data.py](src/plugin/ssi_data.py)
+3. `/lal [stock_symbol]:` [main.py](src/data.py) and [ssi_data.py](src/plugin/ssi_data.py)
 
 View the list of stocks you're monitoring by sending this command. It shows all the stocks with active alerts, helping you keep track of your investments.
 
@@ -78,16 +83,18 @@ View the list of stocks you're monitoring by sending this command. It shows all 
 </p>
 
 In this image, we can see two other commands:
-1. `/LVDEL:` Remove sets of price level (HIGH/LOW).
+- `/LVDEL:` Remove sets of price level (HIGH/LOW).
 
 <p align="center">
   <img src="doc/image/lvdel.png" alt="lal" width='350'>
 </p>
 
-2. `/CPDEL:` Remove stocks out of list.
+- `/CPDEL:` Remove stocks out of list.
 
 <p align="center">
   <img src="doc/image/cpdel.png" alt="lal" width='350'>
 </p>
+
+4. 
 
 
