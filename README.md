@@ -1,2 +1,4 @@
 # Build a Real-time Stock Alert Messaging System in Python
-![Wallpaper](doc/image/wallpaper.png)
+<p align="center">
+  <img src="doc/image/wallpaper.png" alt="Wallpaper">
+</p>
