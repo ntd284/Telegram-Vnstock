@@ -49,10 +49,9 @@ After setting up your environment with Docker and registering for necessary API 
 
 -**/if [stock_symbol]:** Get detailed information on a specific stock by using this command followed by the stock's symbol (e.g., `/if VNM`). You'll receive the latest stock data directly in your Telegram chat.
 
-![/if command](doc/image/ifcmd.jpg)
-
-
-
+<p align="center">
+  <img src="doc/image/ifcmd.jpg" alt="Wallpaper" width='100'>
+</p>
 
 
 
