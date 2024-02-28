@@ -63,7 +63,7 @@ Set a price alert for a chosen stock by following this command with the stock's 
   <img src="doc/image/alstock.png" alt="alcmd" width='350'>
 </p>
 
- - We can set High level, Low level and standard level.
+ - We can set `High`, `Low` and `standard` level.
 
 <p align="center">
   <img src="doc/image/levelal.png" alt="alcmd" width='350'>
