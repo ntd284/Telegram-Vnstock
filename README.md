@@ -48,11 +48,11 @@ docker compose version
 docker compose up
 ```
 
-### Run Real-time VN Stock Alert Messaging and Trading System 
+## Run Real-time VN Stock Alert Messaging and Trading System 
 
 After setting up your environment with Docker and registering for necessary API access, you can start using the Real-time VN Stock Alert Messaging and Trading System. Here are the Telegram bot commands that will help you navigate the stock market:
 
-## Monitoring Data Mode Commands
+### Monitoring Data Mode Commands
 
 1. `/if [stock_symbol]:` [main.py](src/main.py) and [ssi_data.py](src/plugin/ssi_data.py)
 
@@ -64,7 +64,7 @@ Get detailed information on a specific stock by using this command followed by t
 
 2. `/al [stock_symbol]:` [main.py](src/data.py) and [ssi_data.py](src/plugin/ssi_data.py)
 
-Set a price alert for a chosen stock by following this command with the stock's symbol (e.g., `/al VNM`). Information also shows my the number off on-hand stock (14 stocks FPT).
+Set a price alert for a chosen stock by following this command with the stock's symbol (e.g., `/al VNM`). Information also shows my the number of on-hand stock (14 stocks FPT).
 
 <p align="center">
   <img src="doc/image/alstock.png" alt="alcmd" width='350'>
@@ -97,18 +97,35 @@ In this image, we can see two other commands:
   <img src="doc/image/cpdel.png" alt="lal" width='350'>
 </p>
 
-## Trading Mode Commands
+### Trading Mode Commands
 
 Our Real-Time Stock Alert Messaging System provides a secure and interactive trading experience directly through the Telegram bot. Here's how to utilize the trading commands:
 
-### Session Authentication
+#### Session Authentication
 
-4. `/getotp:` Send this command to request an OTP (One-Time Password), which is crucial for securing your trading session. The OTP ensures that all trading operations are carried out by verified users.
+4. `/getotp:` [ssi_trading.py](src/plugin/ssi_trading.py)
+
+Send this command to request an OTP (One-Time Password), which is crucial for securing your trading session. The OTP ensures that all trading operations are carried out by verified users.
+
+Upon receiving your OTP, you'll input it back into the system to verify your identity and activate the trading mode.
 
 <p align="center">
   <img src="doc/image/getotp.png" alt="lal" width='350'>
 </p>
 
-5. `/tr [stock_symbol]: `
 
+5. `/tr [stock_symbol]:` [ssi_trading.py](src/plugin/ssi_trading.py)
+
+Once authenticated, use this command followed by the stock's symbol to perform trading actions, such as buying or selling shares. For example, `/tr shb` will initiate a trading operation for the stock symbol 'SSI'.
+
+<p align="center">
+  <img src="doc/image/trans.png" alt="lal" width='350'>
+</p>
+
+- `/SELL(0):` The number of on-hand SHB stock can sell: 0
+- `/BUY(5):` The number of SHB stock can buy (depends on balance): 5
+
+<p align="center">
+  <img src="doc/image/trans2.png" alt="lal" width='350'>
+</p>
 
