@@ -47,7 +47,7 @@ docker compose up
 
 After setting up your environment with Docker and registering for necessary API access, you can start using the Real-time VN Stock Alert Messaging and Trading System. Here are the Telegram bot commands that will help you navigate the stock market:
 
--**1. /if [stock_symbol]:** 
+-**/if [stock_symbol]:** 
 
 <p align="center">
   <img src="doc/image/ifcmd.png" alt="Wallpaper" width='500'>
