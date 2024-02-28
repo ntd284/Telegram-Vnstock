@@ -52,7 +52,7 @@ After setting up your environment with Docker and registering for necessary API 
 Get detailed information on a specific stock by using this command followed by the stock's symbol (e.g., `/if VNM`). You'll receive the latest stock data directly in your Telegram chat.
 
 <p align="center">
-  <img src="doc/image/ifcmd.png" alt="ifcmd" width='500'>
+  <img src="doc/image/ifcmd.png" alt="ifcmd" width='350'>
 </p>
 
  - **/al [stock_symbol]**: [main.py](src/data.py) and [ssi_data.py](src/plugin/ssi_data.py)
@@ -60,11 +60,11 @@ Get detailed information on a specific stock by using this command followed by t
 Set a price alert for a chosen stock by following this command with the stock's symbol (e.g., `/al VNM`). Information also shows my the number off on-hand stock (14 stocks FPT).
 
 <p align="center">
-  <img src="doc/image/alstock.png" alt="alcmd" width='500'>
+  <img src="doc/image/alstock.png" alt="alcmd" width='350'>
 </p>
 
  - We can set High level, Low level and standard level.
 
 <p align="center">
-  <img src="doc/image/levelal.png" alt="alcmd" width='500'>
+  <img src="doc/image/levelal.png" alt="alcmd" width='350'>
 </p>
