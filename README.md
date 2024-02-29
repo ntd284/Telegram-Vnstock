@@ -140,6 +140,10 @@ Once authenticated, use this command followed by the stock's symbol to perform t
   <img src="doc/image/trans2.png" alt="lal" width='350'>
 </p>
 
+## Summary
+
+Our Real-time VN Stock Alert Messaging and Trading System revolutionizes how individuals interact with the stock market, providing instant alerts and enabling direct trades through a user-friendly Telegram bot interface. Leveraging Python, Docker, and robust APIs, the system ensures accurate, real-time data and secure trading operations. This README outlines setup instructions, key features, and command usage, guiding users through a seamless integration process for an enriched trading experience.
+
 ## Reference:
 
 [1] [How To Install and Use Docker on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04).
