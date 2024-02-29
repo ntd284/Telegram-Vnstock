@@ -17,8 +17,9 @@ COPY file/list_stock_sp.txt /usr/app/src/telestockbot/file
 COPY file/list_acc_trading.txt /usr/app/src/telestockbot/file
 COPY run.sh  /usr/app/src/telestockbot/
 
-COPY cronfile /etc/cron.d/crontab
-RUN chmod 0644 /etc/cron.d/crontab
+COPY cronfile /usr/app/src/telestockbot/crontab
+RUN chmod 0644 /usr/app/src/telestockbot/crontab
+
 
 COPY src/main.py /usr/app/src/telestockbot/src
 COPY src/streaming_stock.py /usr/app/src/telestockbot/src
@@ -46,6 +47,6 @@ RUN pip install /usr/app/src/telestockbot/dist/dist_data/ssi_fc_data-2.2.1.tar.g
 
 COPY run.sh /usr/app/src/telestockbot/run.sh
 RUN chmod +x /usr/app/src/telestockbot/run.sh
-RUN crontab /etc/cron.d/crontab
+RUN crontab /usr/app/src/telestockbot/crontab
 
-CMD ["sh", "-c", "cron && ./run.sh"]
+CMD ["sh", "-c", "./run.sh "]

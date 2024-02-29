@@ -1,4 +1,4 @@
-* 9 * * 1-5 python3 /usr/app/src/telestockbot/src/streaming_stock.py
-* 11 * * 1-5 pkill -rf /usr/app/src/telestockbot/src/streaming_stock.py
-* 13 * * 1-5 python3 /usr/app/src/telestockbot/src/streaming_stock.py
-* 15 * * 1-5 pkill -rf /usr/app/src/telestockbot/src/streaming_stock.py
+15 9 * * 1-5 python3 /usr/app/src/telestockbot/src/streaming_stock.py
+30 11 * * 1-5 pkill -f /usr/app/src/telestockbot/src/streaming_stock.py
+* 15 * * 1-5 python3 /usr/app/src/telestockbot/src/streaming_stock.py
+* 15 * * 1-5 pkill -f /usr/app/src/telestockbot/src/streaming_stock.py
